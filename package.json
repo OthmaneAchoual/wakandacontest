@@ -1,0 +1,21 @@
+{
+  "name": "wakanda_contest_contribution",
+  "version": "1.0.0",
+  "description": "A contribution from the QA Team to the wakanda contest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Wakanda",
+    "Contest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}
