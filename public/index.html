@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body ng-app="LibraryApp">
+	<h1>Serving of static files working</h1>
+	<div ng-controller="DummyController">
+		{{msg}}
+	</div>
+	<div ng-view></div>
+	<script src="/js/vendor/angular.min.js"></script>
+	<script src="/js/vendor/angular-route.min.js"></script>
+	<script src="/js/app.js"></script>
+	<script src="/js/routes.js"></script>
+	<script src="/js/controllers/dummy-controller.js"></script>
+</body>
+</html>

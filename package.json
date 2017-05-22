@@ -4,7 +4,8 @@
   "description": "A contribution from the QA Team to the wakanda contest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodejs index.js"
   },
   "keywords": [
     "Wakanda",
